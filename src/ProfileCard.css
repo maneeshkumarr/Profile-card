@@ -1,0 +1,113 @@
+
+.profile-card {
+  width: 300px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0px 30px rgba(227,228,237,0.37);
+  transition: transform 0.3s;
+  margin: 20px;
+  background-color: #000000;
+   filter: drop-shadow(1px 1px 8px rgb(0, 0, 0));
+    backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+  border: 2px solid rgba(255,255,255,0.18);  
+
+}
+
+.imgg{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 40%;
+  filter: drop-shadow(0px   1px 15px rgb(255, 255, 255));
+
+}
+/* .profile-card:hover {
+  transform: scale(1.05);
+} */
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+  border: 2px solid rgba(255,255,255,0.18); 
+}
+.profile-image img:hover {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1.01);
+  /* backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+  border: 2px solid rgba(255,255,255,0.18); */
+
+}
+.icon{
+  margin-left: -8px;
+}
+
+.profile-info {
+  padding: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #00ff2a;
+}
+
+.profile-info p {
+  color: #ff7b00;
+  margin: 10px 0;
+  filter: drop-shadow(2px 0px 2px rgb(62, 62, 62));
+  font-family:cursive;
+}
+
+.profile-social  {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  filter: drop-shadow(0px 1px 4px white);
+  margin-top: 40px;
+
+}
+ 
+#new1:hover {
+  transform: scale(1.20);
+}
+#new2:hover {
+  transform: scale(1.20);
+}
+#new3:hover {
+  transform: scale(1.20);
+}
+#new4:hover {
+  transform: scale(1.20);
+}
+#new5:hover {
+  transform: scale(1.20);
+}
+
+
+.profile-social a {
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.profile-social a:hover {
+  color: #005582;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .profile-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
